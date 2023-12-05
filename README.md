@@ -18,7 +18,7 @@ The "*Lunar Lander SafeTouch*" project addresses the challenge of limited high-r
 
 - This multidisciplinary initiative not only pushes the boundaries of lunar exploration by maximizing the utility of available data but also contributes valuable insights into real-time decision-making for precision moon landings. The "Lunar Lander SafeTouch" project serves as a pioneering effort in advancing the safety and accuracy of lunar landings, laying the foundation for future exploration missions.
 
--> [Project Outline](projectoutline.md)
+-> [Project Outline](resources/docs/project_outline.md)
 -> [Google Collab](https://colab.research.google.com/drive/1yKkvgHD0VhtwdJkxp9aGPBkCQKJ5j3aL?usp=sharing)
 
 <div align="center">
