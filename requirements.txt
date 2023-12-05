@@ -1,6 +1,6 @@
 # Project Dependencies
 requests==2.31.0
-numpy==1.21.4
+numpy==1.22.0
 pandas==1.3.3
 flask==2.0.2
 
