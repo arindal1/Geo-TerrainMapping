@@ -7,6 +7,6 @@ flask==2.2.5
 # Development Dependencies
 pytest==7.4.2
 flake8==4.0.1
-black==21.9b0
+black==24.3.0
 
 # use pip install -r requirements.txt
