@@ -1,27 +1,74 @@
 <div align="center">
+  <h1>Aerial Scan Sentinel System</h1>
   <img src="resources/images/ban1.png" alt="header image"><br>
-  <p>⠀</p><br>
-  <h1>Super Resolution Moon Hazard Map</h1>
 </div>
 
-## Idea
+## Overview
 
-*Lunar Lander SafeTouch*: High-Resolution Hazard Mapping and Real-Time Navigation using Super-Resolution Techniques for Precision Moon Landings
+The Aerial Scan Sentinel is a machine learning (ML) project aimed at developing a system for assessing landing safety on Earth's surface using satellite imagery and computational methods. The project's objective is to determine suitable landing spots for drones, helicopters, or similar aerial vehicles by analyzing terrain features.
 
-## Description
+## Features
 
-The "*Lunar Lander SafeTouch*" project addresses the challenge of limited high-resolution data coverage on the moon's surface by pioneering an innovative approach to lunar landing safety. Leveraging **Terrain Mapping Camera (TMC)** images at `5m` resolution for `80% coverage` and sparse but high-resolution **Orbiter High-Resolution Camera (OHRC)** data at `25cm` resolution, this project employs state-of-the-art super-resolution techniques to create a hazard map with a `1m` grid spacing. The hazard map integrates essential hazard definitions, including slope thresholds, crater and boulder specifications, crater distribution analysis, and shadow considerations.
+- Analyzes satellite imagery to assess landing safety.
+- 
+- 
+- 
 
-- The core of the project involves the development and training of deep learning models for super-resolution, allowing for the generation of high-resolution features crucial for assessing landing hazards. The hazard map is designed to facilitate safe lunar navigation, and a real-time navigation system is implemented for dynamic decision-making during the landing phase.
+## Installation
 
-- Demonstrations and simulations showcase the adaptability of the lander's navigation system to real-time updates and changing lunar conditions. The project emphasizes user-friendly interfaces for mission control and operators to interact seamlessly with the hazard map and navigation system.
+1. Clone the repository:
 
-- This multidisciplinary initiative not only pushes the boundaries of lunar exploration by maximizing the utility of available data but also contributes valuable insights into real-time decision-making for precision moon landings. The "Lunar Lander SafeTouch" project serves as a pioneering effort in advancing the safety and accuracy of lunar landings, laying the foundation for future exploration missions.
+```bash
+git clone https://github.com/your-username/aerial-landing-safety.git
+```
 
--> [Project Outline](resources/docs/project_outline.md)
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Prepare your aerial images for assessment.
+2. Run the main script to assess landing safety:
+
+3. The script will output the input image with safe landing spots labeled.
+
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/your-feature`).
+6. Create a new pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For questions or inquiries, please contact one of our members: <br>
+👉🏼 [arindal1](https://github.com/arindal1) <br>
+👉🏼 [ShBack](https://github.com/Shback007) <br>
+👉🏼 [trisha-RC](https://github.com/trisha-rc) <br>
+👉🏼 [Shubhayan29](https://github.com/Subhayan29) <br>
+👉🏼 [Immortal10](https://github.com/IMMORTAL10github) <br>
+
+-> [Project Outline](resources/docs/project_outline.md) <br>
 -> [Google Collab](https://colab.research.google.com/drive/1yKkvgHD0VhtwdJkxp9aGPBkCQKJ5j3aL?usp=sharing)
 
 <div align="center">
-  <p>⠀</p><br>
-  <img src="resources/images/ban2.png" alt="header image"><br>
+<h3 style="color: #00000;">Group Memebers: <br><a href="https://github.com/arindal1"><img src="https://github.com/arindal1.png" alt="fury" width="40px"></a>    <a href="https://github.com/Shback007"><img src="https://github.com/Shback007.png" alt="fury" width="40px"></a>    <a href="https://github.com/trisha-rc"><img src="https://github.com/trisha-rc.png" alt="fury" width="40px"></a>    <a href="https://github.com/Subhayan29"><img src="https://github.com/Subhayan29.png" alt="fury" width="40px"></a>    <a href="https://github.com/IMMORTAL10github"><img src="https://github.com/IMMORTAL10github.png" alt="fury" width="40px"></a>
+</h2>
 </div>
+
+> [!NOTE]
+> This project was developed by 5 computer science students as part of their semester exams. While efforts have been made to ensure its functionality and accuracy, it might not be perfectly polished. We plan to continue improving it over time. 
+
+### Happy Coding 🚀
